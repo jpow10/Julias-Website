@@ -129,12 +129,30 @@ p {
   text-decoration: underline;
 }
 
-.footer {
-  font-size: 30px;
+.contact-box {
+  background: #d4d3ed;
+  padding: 30px;
+}
+
+footer {
+  font-size: 20px;
   color: blue;
   text-align: center;
   padding: 60px;
   background: rgba(254, 226, 226, 0.3);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer .social-links a {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 900px) {
